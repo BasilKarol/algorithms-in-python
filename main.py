@@ -3,7 +3,7 @@ from dash_bootstrap_components.themes import BOOTSTRAP
 from layout import create_layout
 import pandas as pd
 
-DATA_PATH = "Distributions dashboard/lab2.csv"
+DATA_PATH = "data/lab2.csv"
 
 def main() -> None:
     data = pd.read_csv(DATA_PATH)

@@ -1,7 +1,7 @@
 from dash import Dash, html
-from histogtam_components import hist_render
-from dropdown_components import distr_render, data_render
-from sliders_components import sliders_render
+from components.histogtam_components import hist_render
+from components.dropdown_components import distr_render, data_render
+from components.sliders_components import sliders_render
 import pandas as pd
 
 def create_layout(app: Dash, data: pd.DataFrame) -> html.Div:
