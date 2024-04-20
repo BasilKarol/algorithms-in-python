@@ -16,7 +16,9 @@
 ## Overview <a name="overview"/></a>
 
 This repository contains code for creating a simple **dashboard** using Plotly's Dash. 
-The final dashboard includes **interactive** plots that describe histograms for five different data samples and five distributions that can estimate the data. (Images are provided in the 'Examples & Usage' section.)"
+The final dashboard includes **interactive** plots that describe histograms for five different data samples and five distributions that can estimate the data. (Images are provided in the 'Examples & Usage' section.)
+
+**Materials** that I've used to learn Dash's basics: [Getting Started With Dash](https://www.youtube.com/watch?v=XOFrvzWFM7Y&list=WL)
 
 ## Getting Started  <a name="getting-started"/></a>
 
