@@ -57,20 +57,31 @@ you can easily create a relation between app's elements. Input takes two positio
  - **value** of element, in which we are interested in ('value' of  slider).
 
 
+<a name="#examples"/>
+
 ## Examples & Usage
 
 Based on structure's logic and web elements described above, we now can see a working example of my Dash app:
+
+### Dropdown menus with multiple values available, each to modify app's plot
 
 <p align="center">
 	<img src="./readme_images/img1.jpg" />
 </p>
 
+### Graph object that represent interactive plot with data
+
 <p align="center">
 	<img src="./readme_images/img2.jpg" />
 </p>
+
+### Two sliders to control distribution's parameters 
 
 <p align="center">
 	<img src="./readme_images/img3.jpg" />
 </p>
 
 
+## And... Thats it!
+Hope my repo helped you to understand plotly's Dash better! 
+See ya next time...
