@@ -47,14 +47,14 @@ One can understand the Div component as a block of content on a web page that co
 Various components are included within our app's **layout**, such as *dropdowns, histograms,* and *sliders*. These are generated using custom functions (**distr_render, data_render, hist_render, and sliders_render**) which return HTML Div blocks.
 These Div objects don't differ in an extreme way from their 'parent blocks'; they just represent more concrete elements of the Dash app.
 
-### html. and dcc. Objects - These Are Our 'Bricks':
+### *html. and dcc. Objects* - These Are Our 'Bricks':
 
 When it comes to creating our Div block elements, I can divide them into two groups:
 
  - If you need some basic web objects, like text or a button, you'll find them in the **dash.html class**.
  - Looking for more **complex** interactive web elements? See the **Dash.dcc** class (Dash Core Components). There you'll find customizable, fancy-looking sliders, dropdown menus, graphs, and so on.
 
-### Input/Output Idea - Creating Relations Between Your Elements
+### *Input/Output Idea* - Creating Relations Between Your Elements
 If you want your button to affect the application's plot, take a look at dash.dependencies **.Input and .Output** functions. Combined with your application's .callback(Input, Output) decorator, you can easily create a **relationship** between the app's elements. The Input function takes two positional arguments:
 
  - The **id** of the element that provides information, such as a slider's custom id (ids.MI_SLIDER in my app).
